@@ -1,0 +1,22 @@
+hi , I'll show you encrypt aes256 which in the repository cybersecurity :
+echo "your text " > example.txt 
+openssl enc -aes-256-cbc -pbkdf2 -salt -in example.txt -out encrypted.bin -pass pass: (your file ) example.txt 
+openssl enc -aes-256-cbc -pbkdf2 -in encrypted.bin -out decrypted.txt -pass pass: (your file ) example.txt
+notepad decrypted.txt  (output example) {
+Salted__·*а——„ьЋЁBx
+»ёј
+АfМwЙpю0nУ('›цУё.Ь(БV±фv%цEп&=CшwJп‚pІ¬›kB'cdЃУ«6
+}  
+cat example.txt 
+
+also enrypt else : file and ways the random ways : 
+echo " C:\Users\User\OneDrive\Desktop " > example.txt 
+openssl enc -aes-256-cbc -pbkdf2 -salt -in example.txt -out encrypted.bin -pass pass:example.txt 
+openssl enc -aes-256-cbc -pbkdf2 -in encrypted.bin -out decrypted.txt -pass pass:example.txt 
+notepad decrypted.txt 
+notepad example.txt (output example) {
+Salted__]ufР3“нБ”Фр©л±н/ѓЖ.8­NlЇNi%Щ5ў†cwјѓґ^©;;oq¦loћЕдЫѕЇсА69rў
+2!?R
+ЅІlЕбQПЗУџpыdzШC+vёС†¶!в'Ф„wVрrЧ2ґы¤вґД%X	 
+} 
+
